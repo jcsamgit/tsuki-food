@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TsukiFood</title>
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                <span class="blanco">Tsuki</span>
+                <span>Food</span>
+            </h1>
+            <ul>
+                <li class="home">Home</li>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Delivey</li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <figure class="fondo">
+        <img src="./assets/images/image-6.jpg" alt="">
+    </figure>
+    <main>
+        <section class="service">
+            <figure >
+                <img class="img1" src="./assets/images/image-1.jpg" alt="imagen de un banquete de comida oriental">
+            </figure>
+            <div class="list">
+                <h2>The Service Offering</h2>
+                <ul>
+                    <li>Fast Service</li>
+                    <li>Good quality ingredients</li>
+                    <li>20% discount every Sunday</li>
+                    <li>Deliveries always take less than 1 hour.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu">
+            <h3>Featured Menu</h3>
+            <div class="containerMenu">
+                <div>
+                    <figure>
+                        <img src="./assets/images/gyoza.jpg" class="imgCenter" alt="un plato de comida oriental llamado gyoza">
+                    </figure>
+                    <h4>Gyoza</h4>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./assets/images/ramen.jpg" class="imgCenter" alt="un plato de comida oriental llamado ramen">
+                    </figure>
+                    <h4>Ramen</h4>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./assets/images/sushi.jpg" class="imgCenter" alt="un plato de comida oriental llamado sushi">
+                    </figure>
+                    <h4>Sushi</h4>
+                </div>
+            </div>
+
+        </section>
+        <section class="price">
+            <h3>Prices in our Featured Menu</h3>
+            <div class="priceContainer">
+                <figure>
+                    <img src="./assets/images/asian-food.jpg" alt="">
+                </figure>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Price</th>
+                            <th>Vegan Option:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gyoza</td>
+                            <td>120 USD</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>Sushi</td>
+                            <td>150 USD</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Ramen</td>
+                            <td>200 USD</td>
+                            <td>Yes</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>
+            <span>MindHub</span>
+            <span>Cohort NFS046</span>
+        </h3>
+        <form action="./assets/pages/show_data.html" method="get">
+            <fieldset> 
+                <legend>Have your ate here?</legend>
+                <input type="radio" id="yes" name="confirm" value="yes" checked>
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="confirm" value="no" checked>
+                <label for="no">No</label>
+
+                <label for="suscribe"><br> Suscribe 
+                    <input type="email" name="suscribe" id="suscribe">
+                </label>
+                <input type="submit" id="submit" value="Send">
+            </fieldset>
+        </form>
+        <a href="mailto:tsukifood@mh.com">tsukifood@mh.com</a>
+
+    </footer>
+    
+</body>
+</html>
